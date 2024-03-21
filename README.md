@@ -1,5 +1,5 @@
 <!-- logo -->
-<img src="(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_68.jpg)">
+<img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_68.jpg">
 
 <h1>Thông tin cá nhân<h1>
 <h4><p>Tên: Đặng Tiến Sỹ<p><h4>
