@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa; /* Màu nền cho body */
+    }
+    .cv-container {
+      background-color: #ffffff; /* Màu nền cho phần container */
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+    }
+    h1, h2, h4 {
+      color: #343a40;
+    }
+    ul {
+      list-style-type: none;
+    }
+    li {
+      padding-left: 20px;
+      position: relative;
+    }
+    li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5 cv-container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="mb-4">John Doe</h1>
+        <p>Email: johndoe@example.com</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Address: 123 Main Street, City, State</p>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h2>Education</h2>
+        <ul>
+          <li>Bachelor of Science in Computer Science, University Name, Year</li>
+          <li>High School Diploma, High School Name, Year</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h2>Experience</h2>
+        <h4>Software Engineer, Company Name, Year - Present</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+        <h4>Web Developer Intern, Company Name, Year</h4>
+        <p>Quisque commodo elit a lectus vestibulum, sed lacinia libero commodo.</p>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+          <li>Python</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
